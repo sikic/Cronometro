@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="jquery.timer.js"></script>
+    <script src="timer.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-secondary">
+    <div>
+      <div class="margen mt-5 w-100">
+        <h3 class="text-white">Bienvenido a tu cronometro!</h3>
+        <img src="crono.jpg" alt="" id="foto" />
+
+        <div>
+          <h4 class="tiempo">
+            00:00:00
+          </h4>
+        </div>
+
+        <div class="mt-2">
+          <label for="segundos" class="mr-1">Nº de segundos </label>
+          <input type="number" name="segundos" id="segundos" />
+          <input
+            type="button"
+            value="Start"
+            class="btn btn-primary ml-1"
+            id="start"
+          />
+          <input
+            type="button"
+            value="Delete"
+            class="btn btn-danger ml-1"
+            id="reset"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
